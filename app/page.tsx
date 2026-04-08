@@ -8,6 +8,7 @@ import { StatsSection4 } from "@/components/pro-blocks/landing-page/stats-sectio
 import { PricingSection3 } from "@/components/pro-blocks/landing-page/pricing-sections/pricing-section-3";
 import { FaqSection2 } from "@/components/pro-blocks/landing-page/faq-sections/faq-section-2";
 import { Footer1 } from "@/components/pro-blocks/landing-page/footers/footer-1";
+import { ChatWidget } from "@/components/chat-widget";
 
 export default function Page() {
   return (
@@ -33,6 +34,7 @@ export default function Page() {
       <PricingSection3 />
       <FaqSection2 />
       <Footer1 />
+      <ChatWidget />
     </main>
   );
 }
